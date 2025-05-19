@@ -5,6 +5,9 @@ import ContactUs from './ContactUs';
 import TeamSection from './TeamSection';
 import NotFound from './NotFound';
 
+import ProductGrid from './ProductGrid';
+Route path="/" element={<ProductGrid/>}
+
 function App() {
   
   return (
